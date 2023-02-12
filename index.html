@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap" rel="stylesheet">
+    <title>Curriculum vitae</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="contenedorDatosPerfilYContacto">
+            <div class="contenedorPerfil">
+
+                <div class="contenedorFoto">
+                    <img src="https://imgbum.jobscdn.com/portal/img/postulantes/1/static/cvOriginalPic_1054349554_bum_vc48d34c3.jpg" alt="foto de perfil" id="fotoPerfil">
+                </div>
+                <div class="contenedorTitulo">
+                    <h2>Gonzalo Ezequiel Arce</h2>
+                </div>
+
+
+                <div class="subcontenedorDatosPersonales">
+                    <ul class="elementosDatosPersonales">
+                        <li class="elementosDatos">Nacionalidad:<p>Argentina</p>
+                        </li>
+                        <li class="elementosDatos">Fecha de nacimiento:<p>16/07/1998</p>
+                        </li>
+                        <li class="elementosDatos">Género:<p>Masculino</p>
+                        </li>
+                        <li class="elementosDatos">Estado Civil:<p>Soltero</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contenedorDatosContacto">
+
+                <h2 class="tituloDatoDeContacto">Datos de contacto</h2>
+
+
+                <div class="datosDeContacto">
+                    <div class="dato">
+                        <img src="https://www.bumeran.com.ar/candidate/static/media/sprite.363cdf2c.svg#icon-light-smartphone-usage"
+                            alt="icono Telefono">
+                        <p>1128470107</p>
+                    </div>
+                    <div class="dato">
+                        <img src="https://www.bumeran.com.ar/candidate/static/media/sprite.363cdf2c.svg#icon-light-email-usage"
+                            alt="icono Email">
+                        <p>gonza_arc@hotmail.com</p>
+                    </div>
+                    <div class="dato">
+                        <img src="https://www.bumeran.com.ar/candidate/static/media/sprite.363cdf2c.svg#icon-light-home-usage"
+                            alt="icono Ubicacion">
+                        <p>Berazategui, Buenos Aires, Argentina</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- /Datos personales -->
+
+        <!--Contenedor de infomacion global -->
+
+        <div class="contenedorInformacionGlobal" id="contenedorInformacionGlobal">
+
+            <div class="barraitems">
+                <button class="botonesItems" id="botonPerfil">
+                    <h4 class="TituloBotonItems">Perfil</h4>
+                </button>
+                <button class="botonesItems" id="botonEducacion">
+                    <h4 class="TituloBotonItems">Educación</h4>
+                </button>
+                <button class="botonesItems" id="botonExperiencia">
+                    <h4 class="TituloBotonItems">Experiencia</h4>
+                </button>
+            </div>
+
+            <!--/barraitems -->
+
+            <!--contenedor informacion -->
+
+            <div class="contenedorInformacion" id="contenedorInformacion">
+
+                <div class="perfil">
+                    <h2 class="tituloPaginasSecundarias">SOBRE MÍ</h2>
+                </div>
+                <div class="separador"></div>
+                <div class="contenedorFoto">
+                    <img src="https://imgbum.jobscdn.com/portal/img/postulantes/1/static/cvOriginalPic_1054349554_bum_vc48d34c3.jpg" alt="foto de perfil" id="fotoDePerfilSobreMi">
+                </div>
+                <p class="textoPresentacion" id="textoPresentacion">¡Hola! <br> Mi nombre es Gonzalo Arce, soy
+                    estudiante de programación Frontend. <br>
+                    Actualmente, me estoy capacitando en el curso Argentina Programa a
+                    través de la Plataforma Digital de TICMAS. <br>
+                    Tengo como objetivo adquirir conocimientos día a día e implementarlos en proyectos personales para
+                    lograr
+                    tener las herramientas necesarias y así desenvolverme de la mejor manera en mi primer trabajo como
+                    desarrollador. <br>
+                    Me caracterizo por ser una persona dedicada, responsable,
+                    proactiva, la cual
+                    siempre busca conseguir un objetivo establecido, adaptándome al entorno. <br> Me encanta
+                    buscar soluciones, transmitir ideas e implementarlas.</p>
+                <img class="imagenesRepresentativas"
+                    src="data:image/png;base64,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"
+                    alt="Imagen Argentina programa">
+                <img class="imagenesRepresentativas2"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWoAAABYCAMAAADrw03DAAABdFBMVEX///8AAGYAAGUBAWYBAWf6+vwDA2f/zDP/AAD/M8wEBGcB1ceZAP/5+fsHB2kGBmrKyt8QEG8iInrQ0OOurs4dHXfr6/Ozs9FZWZvx8feWlsAoKH3b2+m6utY+PotcXJ3/yygEBE8D1dBlZaJp0ZD/G0iGhrb/PcoUFHFFRY/h4e1PT5UuLoE3N4ZycqoB0cWWB/eiose0K///OB7/6E62S/6Pj7yCgrSensVvb6n/0NB4eK3itv//0/T/6Pn/nOZFC6feLN3+8fH/Wlr/aGj/hob/ubn/4uL/k5NtDDn+MzP/ISHwUA4MaJVK/egMVor/2Wv+0UpM4df/+efO9/SY7ui28+/s0P/SkP/dqf/sz//Ynv+9W///3fbHdf/+Y9f+fd7/w/D+adm/dPu7YfYAAFf/qer7UP1wHo//WOl0Emn/QlVzDCz+SkpWDS52bFr/bib/+1BSZGyP/bD/56H/88/+2Wf+4IN8++7/8MH+5ZjZ+PcD/guWAAAUnklEQVR4nO2di5vbxnHAsbMAlIMEgCAJ8nh8VWVLkUfyIroJ75izpTzcJnX6iGTLdp0mVty4bdJHnk4c55/PzOwCxGPBh3TKxfo4/iTdgYvF4rezszOzu7RlHeUvWBzLevTBmygfdPiXo7w6efThG/dYvv5vj267La+3vKlBM+yPbrs1r6841of3svLwzdtu0esqvvXDe3l5eNTrVyKO9cHDAup7b3Ruu1WvpTjWvxdJ37v3w6MbcjPikCQ/Wx+VlBrV2s+VvpVWvgaiyTmKZnFO1PKRVmsnd89RDhGC1mrUGi1LcXSsn5pQf6g/RI/7rbd+5BzjmsMFiV3NunEc16dnHebX+boJ9Y8txvvo8ccPUD5+/pPbbviXUNrzAACEAPDqS9JxM+qfMurHD04S+eRHR8U+TMYArhYJ3tqqRu1bjz45yciDnxxZHyIrVGYppQ1gu9J1YYSGuwJ1gfSR9WHSR5UGKUGiARFSuh4MK7W6SPrk5OOjDdlb/LnwwAZbCttGc23bbijWZg/kP75dIn1y8vy2X+DLIo7VBLQaiFrYQqAREfSbN/qxUaufl0mfPHjrqNZ7ygwNNZFWIgWSl+6n33yjTPrhtwykT07+87bf4Msifh3ZCqlZ25q1d7/M+uG3HhhRPz8q9X7Si4DMx0ar8T/0RkSJdRXpk0+qVmicnVIqvaWhxpuqy+15eduT9i24T50kjRBcVGohMqxtu8y6kvTJx2bU+7TAKf5YdZPjZ4tWV+34xlKZn3eQ2fdB2Q9z92yRglYza5Al1tWkK7Qan15rN7dKv5Ut3unTBWOjmV+r0W832/3aOV8xluO379WoWKOTgZG57O/uKYeKNpMHVZXESnxqkSq3l2p3lK0WGyF7XWS9hfTJc3NzarN6tF3ixWpTfDmIo0n2QipUfX98uujGdE93Mbtud4wM8FJjPJvHEyo2Xfd1ISdzeT696Ffzw+ut5sV0Xseik/pidtmvgkiKdD2dx1zudFzbD7byQKS9jfU20hUeSH8CgvIqIEzCn2HAdJ0UHwsuC2vD+/tn01jdoBM1k8HlednYONb5qK7rpmdMZg2Ch+Plog6qKfTPZNo2c8GL55eLSD+I2xNPz3xzp9ZOY90YqrY+a++2mI51BZ6t3eoCawma9VbSZr+604XAcz13i3he6EJTNaINEKgLV/na8JflIgBwvTD0WELPxZfsXjqlx17VMSrAOrCQi6VBxJw6a8yT2/HvAC9H646hyVjfuIs1bx6ErYFw0TaRPkPQ9Bhqc+ihTYiG57tnJ78uKVqUYNBrxXor6Ypo8QoC7KtEfctCH0gIYcHt84cQSHqkC/PC+7dmoZDUZcrG4Z029RPAvFZ45LULIX5i80Ci/Bn20BUO9DpCcaUeYRLpCBiUuWCXLADoSbbQSk3qgLBHxY5x6FHcItZralAoqD07WTfBcyksh4xiZ1lvJ21WamcIoU1uI9ZhFMmJAFdGPPn05kidirsi6uVeqoYmgXJhaM6wa1AfWCmQgQuTZe7JF4KSZlwxIuNnBAL6fpcMJPcjUPhASR63zNq3mjH1A4Kmh5CjQGVt6phpvrBjXWJJejFulE1ZDer87h6sL0SIUQtlQTJ6DSnr/9pGGi210e7hDGADKF9GCXUk/pVlLV3pMdlGXYTk+6BWR7kG9wNBesCE6RYSAfQTvluUZX2GeqZ6xOZiQKnKQMwHkq7bQt1OuIkfzPIW2LGWkeoSVH/6Oykr6UGL81zRJhal2hQxmxMa0g1hWjXdZnp0hHrN/W7wQ+D+f/9sC+nHFXWOIFRuTToxSlUrGwEeoYgEtbqVoKZXRI3KoHasPmuqtm1cEw49KTgrJl2IN2UbEn1Wm+pWBkTwmMKQAUj/gMYs2w8yQJy9HOed+vaE8dHNtprPBT2VNTuAaStTtLWAUHcJcNVUKfafDK8qfZsMax7qOZePWGv/egvrx1Vjpo3TnEuDXb24rp0Hpb5CgzAQM0ehRgNCeo8GJKPV6PN7oFJhkv4gI3xFMgWscKGYpWWnWJLzC5x1pyUO0jqX75CCf3bxZ+oi6oNQ1DPPcaxel1SDTA8rq+ShwD/TEApglCm7Ei71CQ5BGlv4lvQArnO0R9zmjHD45bVacLcqP6SSdZVOY+9NaY6iSdpjw6p8d2RpS75AH3hon9XcplDbdl6rrQV4gkmTWXc9mq9sNgeKtStSte4TemKF/cdTIBOggcPWCil7lLT06CZQ9C6yzR2JgPBJVnmX1dTlJzFrNA7N3JvZ1OH4JBqcWIx+pdzz0Iyik5ehCAtarVWP+qyK9WPr2yTGB5wvbHZveeCqiUZpdWJRaJiitd2gZt3YoMZ5Hsc/qSeZXbSYwo0mUUCOgSQvAftM4P0c32FwwBaQFBItEZYDtrygbAHegJ7EZOIyF6YXQreRbrKwmh7PCGzgCXQ0maD74nF2mar1ZLeVlCWPhlFjpd58gR5/KHl6CLH3iq6Kdd4fj4anWRnNAplz93L+tfz05//ztwb5Dsvbf/8P3zV15vWim0gMMjUgUXp1fpr4aybUaD6EVisbnRCIZ+Nmu7kaYjgSsMbiq06ayjqeR2rYoLqGEK+b/eUQbQ9pOc+/WFJMV+32mNw5yW+F1nqZNrUzEwGbGdRTHEeD62W7fTbq8vofs0bjcJXQWwbU7WgQcV5eoelZRxDSVBdA1M6j9q3WapGEOal6kX9UMiCpH+LK+//7d1/ZIu98r6TatLZ+3lNyvkRWCnUIs+Rqr5VGWAbUjjUUHMbSQPBEMEy6pXcRiIBUD325+rnaLnEVsGklbRXa325OyKSSz8ORsDIXnVOav6jHcZoYpXNYP2R3F+kh6/hMXz+/8CQNAkZtzzv6tVao7cC9hbaZcjHtOU7eXkjPKJBuzASEQVFCmVkfKMyNZODsf9zK+iv/942yWm9+7IM2uUj0NNMdqf9QQo1BcqzmD7IUqD+cQPNR8N3q6gVcuNZl9VRj4z9B3/J9yrVdkZ/AyTPkN6O7HQyyF8Jlmw4B+dZaLjGA0laZvRpf50ZXNq+aEFYXahr1GN1PwToQXFkdylD1hhMK+C/y20cxJuoKbKSdDS7Y1NhFDyRjQ6T0ZLCD9ffLrJN8ro/+iJoWpfDQ5yhnnsuofWscuuxs0jQfnm16DqtrTJXHOEo0bUo2nVCjr5BshUOfLGDnBSuO+up2jKhDPX16EDd0ja0pmSQqiHrdtDpp67ELPdI1vMGDy4xWCw5bYM35U4eyYRfjfuHdcbbC0Sd0yJwxIPTHQFqxJmsnvR2s3zEZ7ESrhadCGNJqg0Nk0uopLeRTJh0NxXUumYM2cDydz0+XKf25UIlgtB9n6bteoAHm9DsGcqnCof/IHqHtuUE6U0zQQCjlhWlmMCKtiN0Q6hl0LNW1K3ZROGoNxpyT9U25djSAOKzISS2EzKTVuYxTzgth1rCL9Xe2oCat5mgxFHuhxummznG2Mr+FMJp3GPY245USwQqqB5upaQUKNarfIr3Yiako1otFEz3sU7TMpsr18sG+M8Rxwp44dpfOyLZxEuAAyfYApisaGn7HLy7GoKcy4ZSpqMBqFL0Gtpu1wYSkL5Oi3k+rfYx+8Y1o+KG/ujKHBunFVswxIZlq2U8vn6FWcfQjxSC9SCkRwcaCekXJErRVcSHo5Z6AdQQ6HQIqrkUdmFNSBk0IeqLoPXZnZz1Dttqx1qA68ADSG9ZiB+u3K4Olg1Hj7EPOMOELRWzK42RfrhUL5cNhbJRBjcrKI9LNoRYux64YliSoiae2NHHhZEQfPJ5YsXHhuWZIaQybdydhbIMOe1CfLcvZao7hjNPfPqzlDtbvVIB+IdRruoXeMqQMxPaAV2k1o5Yl1GRAclqtbU0GNRp1MhOAVqLwoBqE3DPYOJUYIwsScbyk0lIqtgwWzfx9pPyUcCv7zzfD+vuVE+MLoD4FNfkganO8a0btlgyIETVCyGs1KK2eF+aEGrkb3LAEtZrvVGpL51bIIwmGuaw2eXpoqcA2L0LtYm2zDfn/LagrjfULoJ6Bq70ysd6VxdEGhGx1EXVZqxEo25pQlFGLeaHmhlCokVmYou7MObVHdkUox4Uzrdmxx6jDCqduu6ioDa3np7/45Z8LtXcA6oO1umhANM9omJPRVCcW8aNEq5XHrDIx5ImzlbOxukFOq2m1w+Yk64Gk9fqFvP+LX33tn/5MBsRTDlhVwiyHWvA6kihrdRk1uWr0JIMBoYWF/AqdUK5JDjWRvIh47YyXEBgP6fVlzvkf0KLGwWqdpJ1sJH3nTiXrG58WOdWw17T4cqgFeyAcWNIycbgRTwXRRdTY4tOJywcA1GqNsNHL7vayKfC18DhrfpCzp0m7HpOuZn3Dzh4iohUXD0zOnlNw9m4ANbMWud0UoIPoEmqsrnc5mAiQirVKFK2yqDGEcfl4gCG1tJv0r5l0JesbDmFotYo2axYWp/SbWrkQ5iZQq1XnotiyaKu5n33eCHS9CAXnxclqe9lMmg7MKTDIBeZSZZ/Mqr4h/c+/+as7W1hvC8wP12oOzG2VKy4G5via5+rk302iNttVTsPkUau6fEp9dK7mOHG6vJKLE2Mrq9aU73LZs85uPNJrnDtI/8vfJKhNrLenmw5ErbJ1nBcGU7rpchHXp6sktLs5reaU8UZYI0VJq3tttb2QEk0IVHk/GNYuMsa6IomaaHVVEhVJB0j6rzeoy6zfqTYfL4Lat1ahmt8p/PVW+STqQJnRYedmUbvgFvP4KlLMofbH88COpm1uUcdqBkBHiQj1vJfXiMYMhGFpwK5aGkhJ382iLrI2LA28FOp0aYAndxGNiTHl/NXSADY4xNGp1z1uyAPh5fbCFiy7qNWOc01LtwKiM7Qhlu/U8OG8oyGEPGqyIauF3v2Xmg9KWOd2/iakIUP6qznUOdaGBa+XRE1pHZpxeBVIeBCeJinPxjqgXWfY4hDUgtcNanU0ysl6VgxhaMmXdyMGILn7rRX5HuRqoAEpJ3tNy7hh9TKuJp3XamT9y7e3LeO+JGps5UQtg/OSqSsm08tlu7k6rQOHxZSxg0gt496UX42BOa+ppUI5kKIHQtsLyeCGQpzWHNp/pnw6yosZvzElvznBbw05D1XU6s2MiKSLqO987bdbNieYUNs7ULNebTYnXKIRdHWgivE5yCiKQqDIgJN+kreSHYw6zeyJkgGRUMyB1GitPmOrHVodCznLRCsD8XzOaT69/Lgzg0ANGIriRjKRbLlJSJe0GuWL3ZQVahVlU36sGjXtFZG53U0DvMo5X15g9CToaJgD6MxOMo16vxwIp5vymT1CzU+HeW4nmIMND9X6cBZ1oLfz0X5YQavs1ECbx9hO1J2h4P1Wpo1k0rv/r6zTZa1G+e2eqIU+GSmrF7xEQastNiG8kYyzirzDSW0k42Sxzet96bTIS96GzB6YtBqKmT0dlheSqCpfDbyYnhqQEW3bskFvN6OtarZqzV7bI4d6E6LhmEaGtAn1nqzbyjzR6mm1VvPAym+PrLk4Wl0VW0l1FoCDZ6HSjHEjQQ16wbawCqOTqGLn0gC/LRTz1WRAELWqO0ymxYh3IfP+cE6hkuvv2unEsU2cNVkfvqfke2RJG1Hvx7qvDoFwSGVGrfaxyfz2SBzAgdr1ybsj9WbcRKHEJFmypSQq3+65xQUvnlILWq32hnhZrVZ7o0yoPal3I7vJKgzv2yUnUNi8k1uwMfFgj82RS6H39mQCc4NOV6B+8tkeqBvABgphc+RXkh4n25VTUdzKTvOg2oEotVcq1MpHnC6OkwFWe3PcaIN6ydvGRcbQkMypKcAb2hP3cUmo1WaPRbHhgdoOjX2slnGVtcabbZ4GQOWX0ZCIPcxHJ7b5gEbWUiek3SxpM+o7v98DtT+AQOg9ncVzFfw5bQKgSNgrH9A4DQSoAxpqgzWwhRTuILO98ZTO8+A7ByLddc6pNfYgUeFWm6IjXu/mXe5JpzYiyTMFzpTXBc1sDUTAGyQDmG6aNKNNrZQ2UJk/F9+KHL0dSq2OHUnjsSM3p9NVqPdS675Avz8kx9+U53estuRjR4Er8hsx6JflgLaf0pkkT53yQS/L7a6srE2nLYp0O2TzmGsIKPkcQD1zQLIRYUs8N/BEenAP478gxOg/EJPs8QCWJciAaoZ0DNADVjjWbDqXRE+lVfNoXT4FVZYpFE8MbCKXHOkK1PtZ61WgTsJl9t/nP1dHfWzjYbqrWSyTg3T0Jx6MW/mtF2eRCqXX2SDifKYqjXN7vJYTdZBvtCmKaqrqLZ/mcq7Vc4PsiUrafzoPhEgWbPh83m4GtN0nn/2oIl2Feh8LYlnNaX0SL64rDRodEY2NR0SJaW01HHTjSTSJu4vTy75fOOaJfsGUbh/7uYut9Xwy6c4KJqtNLZlfdjKjonM9jyf1WWHbnZKzBX40WOau0crA2YhahA0arPc4tEjSi0T+4HMl6SrUP3h3j8fg+Kq1+4aDnZvX7bcrDz5znNLot9vtvkpTFw8+O5Zfa/dbxYtWr9+uWUWT5BSLcq6iVDARbFitqCE8pDrUovwR663SCEUu+bHJMBVJV6H+3T6oiwsnB36ePTFvPD1vvt141XRxy9MrPsq0Yt/vTjgvfUkFVJB+Ka3mFm1v00t+SYXxI3N5w9VDK860qLLFRaGvXrHTtUa18COlifTL2eqjWMonzX2hkC2DTw2kX8oDOQpKU+jDNZuvyQq9i8/LpO9+9ekPDKT38quPQrL58jepv/zNkxfW52XSd+8+e9fA+mg/9pc+SFcddgNOuIf09ZFPDaTvPrXKrJ/sOSkehQQjNZV21XsqkbRfgbrE+skfbrv1Xy4Zi+LXz1ZpdZH1kfShor9UGfSXKqPLWInasr54kpLeL3o5ykac0leFm7X6c1X83S9+94Tk90eVPlyKX4BfgfpZesO7n312VOgXlPz/1sGynplQv3d77XutJB/Pv2dCfYute53FYEGe7b7rKC8gZbV+un8O6ygHSclaHy31K5MC6/dvuz2vs7yftR5HnX6l8sdnenJ8+v7RTr9q8d97H+WPR9BH+UuUPwEZ4xmu69eUnAAAAABJRU5ErkJggg=="
+                    alt="ticmas">
+            </div>
+            <!--/contenedor Informacion  -->
+
+            <!--contenedor Educacion  -->
+
+            <div class="contenedorInformacionEducacion" id="contenedorInformacionEducacion">
+
+                <h2 class="tituloPaginasSecundarias">FORMACIÓN ACADÉMICA</h2>
+                <div class="separador"></div>
+                <ul>
+                    <li>
+                        <h2 class="tituloFormacion">Tecnicatura en desarrollo de software</h2>
+                    </li>
+                    <li>
+                        <h4 class="tituloAcademia">Universidad Provincial de Administración, Tecnología y Oficios.
+                        </h4>
+                    </li>
+                    <li>
+                        <h4 class="tituloAño">Ene 2022 - Actualidad, Argentina.</h4>
+                    </li>
+                </ul>
+                <div class="separador"></div>
+                <ul>
+                    <li>
+                        <h2 class="tituloFormacion">Community Manager</h2>
+                    </li>
+                    <li>
+                        <h4 class="tituloAcademia">Fundación El Futbolista.</h4>
+                    </li>
+                    <li>
+                        <h4 class="tituloAño">Ene 2021 - Dic 2021, Argentina.</h4>
+                    </li>
+                </ul>
+                <div class="separador"></div>
+                <ul>
+                    <li>
+                        <h2 class="tituloFormacion">Idiomas</h2>
+                    </li>
+                    <li>
+                        <h4 class="tituloAcademia">Inglés</h4>
+                    </li>
+                    <li>
+                        <h4 class="tituloAño">Escrito: Básico. </h4>
+                    </li>
+                    <li>
+                        <h4 class="tituloAño">Oral: Básico.</h4>
+                    </li>
+                </ul>
+                <div class="separador"></div>
+                <ul>
+                    <li>
+                        <h2 class="tituloFormacion">Conocimientos y habilidades</h2>
+                    </li>
+                </ul>
+                <div class="imagenesSkills">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
+                        <path fill="#0c73b8" d="M41 460L0 0h451l-41 460-185 52" />
+                        <path fill="#30a9dc" d="M226 472l149-41 35-394H226" />
+                        <path fill="#ecedee" d="M226 208H94l5 57h127zm0-114H84l5 56h137zm0 261l-124-33 7 60 117 32z" />
+                        <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 26-288H226v56h80l-6 58h-74z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
+                        <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
+                        <path fill="#ef652a" d="M226 472l149-41 35-394H226" />
+                        <path fill="#ecedee"
+                            d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z" />
+                        <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630">
+                        <rect width="630" height="630" fill="#f7df1e" />
+                        <path
+                            d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z" />
+                    </svg>
+
+                </div>
+            </div>
+            <!--/contenedor Educacion  -->
+
+            <!--contenedor Experiencia  -->
+
+            <div class="contenedorInformacionExperiencia" id="contenedorInformacionExperiencia">
+
+                <h2 class="tituloPaginasSecundarias">EXPERIENCIA LABORAL</h2>
+                <div class="separador"></div>
+
+
+                <ul class="experienciaLaboral">
+                    <li>
+                        <h2 class="tituloFormacion" id="tituloFormacionExperiencia">En búsqueda de mi primer
+                            trabajo como desarrollador Frontend.</h2>
+                    </li>
+                </ul>
+                <div class="separador"></div>
+
+                <ul>
+                    <li>
+                        <h2 class="tituloAcademia">Objetivos laborales</h2>
+                    </li>
+                    <li class="liObjetivosLaborales">
+                        Aportar valor desde mis habilidades.
+                    </li>
+                    <li class="liObjetivosLaborales">
+                        Progresar dentro de la empresa.
+                    </li>
+                    <li class="liObjetivosLaborales">
+                        Ganar experiencia e incorporar nuevos conocimientos.
+                    </li>
+                    <li class="liObjetivosLaborales">
+                        Llevar a cabo objetivos planteados.
+                    </li>
+                    <li class="liObjetivosLaborales">
+                        Aportar para lograr un excelente clima laboral.
+                    </li>
+                </ul>
+                <div class="separador"></div>
+
+            <!--/contenedor Experiencia  -->
+            </div>
+
+
+        </div>
+
+        <script src="/script.js"></script>
+</body>
+
+</html>

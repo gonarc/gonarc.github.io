@@ -1,0 +1,667 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    max-width: 100vw;
+    padding: 0px;
+    background: #edf1f7;
+}
+
+.contenedorDatosPerfilYContacto {
+    width: 40%;
+
+}
+
+.contenedorPerfil {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px;
+
+}
+
+.contenedorTitulo {
+    width: 100%;
+}
+
+.contenedorTitulo h2 {
+    font-family: 'Hind Vadodara', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+.contenedorFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.contenedorFoto img {
+    filter: grayscale(100%);
+    width: 80px;
+    border-radius: 100%;
+    border: solid 3px #e9007c4d;
+    margin: 0;
+    margin-bottom: 25px;
+    transition: all 0.5s;
+}
+
+#fotoDePerfilSobreMi {
+    filter: none;
+    width: 100px;
+    border-radius: 100%;
+    border: solid 3px #e9007c4d;
+    margin: 0;
+    margin-bottom: 12px;
+
+}
+
+.subcontenedorDatosPersonales {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+.elementosDatosPersonales {
+    padding: 0;
+    width: 100%;
+    margin:12px;
+}
+
+.elementosDatosPersonales .elementosDatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Hind Vadodara', sans-serif;
+    margin: 0;
+    margin-bottom: 24px;
+    color: #e9007d;
+
+
+
+
+
+}
+
+.elementosDatosPersonales .elementosDatos p {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    color: black;
+
+
+}
+
+.contenedorDatosContacto {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px;
+    margin-bottom:0px;
+}
+
+.tituloDatoDeContacto {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.tituloDatoDeContacto {
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.datosDeContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+.datosDeContacto img {
+    width: 30px;
+    height: 30px;
+    border: solid 3px #e9007d;
+    border-radius: 100%;
+    padding: 6px;
+    margin: 0px;
+    margin-right: 12px;
+}
+
+.dato {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 12px;
+
+}
+
+.dato p {
+    text-align: start;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 100;
+    margin:0px;
+}
+
+/*CONTENEDOR DE DESARROLLO*/
+
+
+.contenedorInformacionGlobal {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 20px;
+}
+
+.contenedorInformacion {
+    height: 100%;
+    display: inline;
+    background-color: white;
+    padding: 12px 12px;
+    margin: 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.contenedorInformacionEducacion {
+    height: 100%;
+
+    display: none;
+    background-color: white;
+    padding: 12px 12px;
+    margin: 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.contenedorInformacionExperiencia {
+    height: 100%;
+    display: none;
+    background-color: white;
+    padding: 12px 12px;
+    margin: 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.barraitems {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.botonesItems {
+    width: 200px;
+    padding: 0px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+#botonPerfil {
+    border-bottom: 0.1px solid #e9007d;
+}
+
+.TituloBotonItems {
+    padding: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;
+    color: #e9007d;
+    margin: 6px;
+}
+
+.botonesItems:hover {
+    cursor: pointer;
+    background-color: rgb(249, 247, 247);
+    border-radius: 15px;
+}
+
+.separador {
+    border: 0.1px solid #e9007c4d;
+    width: 80%;
+    margin: 36px auto;
+    
+}
+
+.textoPresentacion {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 32px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.imagenesRepresentativas {
+    padding: 5px;
+    margin: 20px;
+    width: 20rem;
+}
+
+.imagenesRepresentativas2 {
+    padding: 5px;
+    margin: 20px;
+    width: 25rem;
+}
+
+
+.imagenesSkills {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagenesSkills svg {
+    width: 8rem;
+}
+
+.tituloPaginasSecundarias {
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+    margin: 6px;
+}
+
+.tituloFormacion {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 300;
+
+}
+
+
+.tituloAcademia {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;
+    margin: 6px 0px;
+}
+
+.tituloAño {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 100;
+    margin: 6px 0px;
+
+}
+
+#tituloFormacionExperiencia {
+    text-align: center;
+}
+
+.liObjetivosLaborales {
+    font-family: 'Hind Vadodara', sans-serif;
+    list-style: disc;
+    font-size: 18px;
+    margin: 24px;
+}
+
+/*    RESPONSIVE    */
+
+@media(max-width:940px) {
+
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100vw;
+        padding: 24px;
+        background: #edf1f7;
+    }
+
+    .contenedorDatosPerfilYContacto {
+        width: 100%;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 12px;
+
+    }
+
+    .contenedorPerfil {
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px;
+        padding-bottom: 0px;
+        margin: 20px;
+        margin-bottom: 12px;
+
+    }
+
+    .contenedorTitulo {
+        width: 100%;
+    }
+
+    .contenedorTitulo h2 {
+        font-family: 'Hind Vadodara', sans-serif;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .contenedorFoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .contenedorFoto img {
+        filter: none;
+        width: 110px;
+        border-radius: 100%;
+        border: solid 3px #e9007c4d;
+        margin: 0;
+        margin-bottom: 12px;
+        transition: all 0.5s;
+    }
+
+    #fotoDePerfilSobreMi {
+        filter: none;
+        width: 90px;
+        border-radius: 100%;
+        border: solid 3px #e9007c4d;
+        margin: 0;
+        margin-bottom: 12px;
+
+    }
+
+    .subcontenedorDatosPersonales {
+        display: flex;
+    }
+
+    ul {
+        padding: 12px;
+    }
+
+    ul li {
+        list-style: none;
+
+    }
+
+    .elementosDatosPersonales {
+        padding: 0;
+        width: 100%;
+        margin-botton:0px;
+        margin-top:0px;
+    }
+
+    .elementosDatosPersonales .elementosDatos {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        font-family: 'Hind Vadodara', sans-serif;
+        margin: 0;
+        margin-bottom: 12px;
+        color: #e9007d;
+
+
+
+
+
+    }
+
+    .elementosDatosPersonales .elementosDatos p {
+        font-family: 'Hind Vadodara', sans-serif;
+        font-weight: 100;
+        margin: 0;
+        margin-bottom: 12px;
+        color: black;
+
+
+    }
+
+    .contenedorDatosContacto {
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px;
+        padding-top: 0px;
+        margin: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .tituloDatoDeContacto {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .tituloDatoDeContacto {
+        text-align: center;
+        font-family: 'Hind Vadodara', sans-serif;
+    }
+
+    .datosDeContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .datosDeContacto img {
+        width: 30px;
+        height: 30px;
+        margin: 6px;
+        border: solid 3px #e9007d;
+        border-radius: 100%;
+        padding: 6px;
+    }
+
+    .dato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 12px;
+
+    }
+
+    .dato p {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 12px;
+        font-family: 'Hind Vadodara', sans-serif;
+        font-weight: 100;
+    }
+
+    /*CONTENEDOR DE DESARROLLO*/
+
+    .contenedorInformacionGlobal {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 0px;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .contenedorInformacion {
+        height: 100%;
+        display: inline;
+        background-color: white;
+        margin: 0px;
+        border-radius: 0px 0px 15px 15px;
+        width: 90%;
+        padding: 12px 0px;
+
+    }
+
+    .contenedorInformacionEducacion {
+        height: 100%;
+
+        display: none;
+        background-color: white;
+        width: 90%;
+        padding: 12px 0px;
+        margin: 0px;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .contenedorInformacionExperiencia {
+        height: 100%;
+        display: none;
+        background-color: white;
+        padding: 12px 0px;
+        width: 90%;
+
+        margin: 0px;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .barraitems {
+        border-radius: 15px 15px 0px 0px;
+        width: 90%;
+        padding: 0px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    .botonesItems {
+        width: 200px;
+        padding: 0px;
+        border: none;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        background-color: white;
+        transition: all 0.2s;
+    }
+
+    #botonPerfil {
+        border-bottom: 0.1px solid #e9007d;
+    }
+
+    .TituloBotonItems {
+        padding: 0px;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Hind Vadodara', sans-serif;
+        font-weight: bold;
+        color: #e9007d;
+        margin: 6px;
+    }
+
+    .botonesItems:hover {
+        cursor: none;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .separador {
+        border: 0.1px solid #e9007c4d;
+        width: 80%;
+        margin: 36px auto;
+    }
+
+    .textoPresentacion {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 32px;
+        font-family: 'Hind Vadodara', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        padding: 0px 6px;
+
+    }
+
+    .imagenesRepresentativas {
+        padding: 5px;
+        margin: 20px;
+        width: 18rem;
+    }
+
+    .imagenesRepresentativas2 {
+        padding: 5px;
+        margin: 20px;
+        width: 18rem;
+    }
+
+    /*pagina educacion*/
+
+    .imagenesSkills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagenesSkills svg {
+        width: 8rem;
+        margin-bottom: 6px;
+    }
+
+    .tituloPaginasSecundarias {
+        text-align: center;
+        font-family: 'Hind Vadodara', sans-serif;
+        margin: 6px;
+    }
+
+    .tituloFormacion {
+        font-family: 'Hind Vadodara', sans-serif;
+        font-weight: 300;
+
+    }
+
+    .tituloAcademia {
+        font-family: 'Hind Vadodara', sans-serif;
+        font-weight: bold;
+
+    }
+
+    .tituloAño {
+        font-family: 'Hind Vadodara', sans-serif;
+        font-weight: 100;
+        margin: 6px 0px;
+
+    }
+
+    #tituloFormacionExperiencia {
+        text-align: center;
+        padding: 0px;
+
+    }
+
+    .experienciaLaboral {
+        text-align: center;
+
+        padding: 0px;
+    }
+
+    .liObjetivosLaborales {
+        font-family: 'Hind Vadodara', sans-serif;
+        list-style: disc;
+        font-size: 18px;
+        margin: 24px;
+        padding: 0px;
+    }
+}
